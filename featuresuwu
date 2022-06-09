@@ -69,7 +69,7 @@ development started as at 10/6/2022 lol;
   ~ loop equips and unequips all hairs and attires so it looks epic lol; 
 \\
 
-// raise a floppa;
+// raise a floppa; id == 9203864304;
   > auto collect cash;
   > auto feed floppa;
   > auto clean poop;
@@ -89,7 +89,7 @@ development started as at 10/6/2022 lol;
   > auto fertiliser; (plant or farm); (option dropdown);
 \\;
 
-// lucky block playgrounds;
+// lucky block playgrounds; id == 662417684;
   > get lucky block;
   > get galaxy glock;
   > get rainbow block;
@@ -98,7 +98,7 @@ development started as at 10/6/2022 lol;
   > hitbox expander; size adjustable, yk if some noobs annoy u >:)
 \\
 
-// cart ride (almost all cart ride games since they all use the same system lol);
+// cart ride (almost all cart ride games since they all use the same system lol); id == all cart ride games, some devs might try to be smart idk;
   > stop all players;
   > speed up all players;
   > slow down all players;
