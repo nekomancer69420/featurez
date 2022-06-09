@@ -1,0 +1,164 @@
+(insert name here) hub
+development started as at 10/6/2022 lol;
+--//
+(Build A Boat For Treasure); id == 537413528;
+
+// autofarm;
+   > speed adjustable (how many seconds before reaching the end); (lesser the time, the less coins you get); (def. value is 20 seconds);
+   > autofarm methods to choose from;
+     ~ { tween or teleport }; (both approx. require the same amount of time);
+
+// boat fly;
+   > speed adjustable;
+   > methods;
+    ~ { tpfly (really buggy); , normal bodygyro + bodyvelocity + bodyforce fly };
+
+// copy other peoples boat; (not recommended to be used);
+  > super buggy (like holy sh_t);
+  > will crash u if it tries to copy > 50 ~ 100 blocks;
+  > works for 15 blocks lol;
+    ~ most of this is due to it just gets the positions of the blocks and stores them in a table which becomes really laggy since there are so many large values;
+      being stored at once (most likely will crash lol);
+    ~ i could store it on a server but thats if this hub is ever paid; (probably never since idk how to code lua well and its probably gonna be really shitty);
+
+// discord webhook support;
+  > u can enable it for the script to send how much $$$ u have earnt every run;
+    ~ will send the total (final) amt you have earnt when you leave/disconnect/idle/whatever from the server; (playerremoving event basically);
+\\
+
+
+--//
+(Sandhurst Military Academy by ReaperAaron); id == 3295514368;
+
+// crystal ac bypass
+    > basically anything u can name that crystal ac can detect is blocked :D
+    > would like to mention fly is fixed btw
+
+// get any gun;
+    > p90, golden glock, scar-h, l85, l86a2, akm, glock, mk48; (basically any gun in the game lol, dont know if i named all);
+
+// get motorbike;
+    > basically gets motorbike; {safely};
+
+// clickkill;
+    > 5 second cooldown (bypasses teamcheck); (bypasses leaderboard ko count);
+
+// clickkill; (no cooldown, does not bypass teamcheck, does not bypass leaderboard ko count);
+
+// kill all; (does not bypass teamcheck sadly);
+    > takes about 2 seconds for all damage-abled to die :D;
+
+// ddos everyone but yourself; (this is such a lame method but whatever);
+
+// freeze server; (affects everyone); (duration = 3 ~ 5 mins); -- mostly due to roblox auto timing you out for no connection >:(
+
+// silent aim; (bullet velocity/travel will not matter, it will ALWAYS hit the target that is closest to your mouse/in your fov);
+    ~ team check ofc;
+    ~ fov circle showing; fov circle size; (default value is 60);
+    ~ esp; (toggled on or off);
+// auto get attire;
+    ~ physical;
+    ~ standard;
+    ~ formals;
+    ~ any hair, chosen by a dropdown gui;
+// hide username + rank + regiment;
+
+// fake afk; (move while being afk); (button press func, cannot be reversed due to the nature of namecall hooks); (rejoin to disable);
+
+// rainbow attire; (not really rainbow); (funny feature);
+  ~ loop equips and unequips all hairs and attires so it looks epic lol; 
+\\
+
+// raise a floppa;
+  > auto collect cash;
+  > auto feed floppa;
+  > auto clean poop;
+  > auto click floppa;
+  > infinite sanity;
+  > auto buy; (works for backrooms but you need to be in the backrooms itself as there is a check, sad ikr :c) 
+  > go to the backrooms shop without it being open;
+  > go to the ufo shop
+  > max altar instantly; (u ofc need the amount of cash to max it, approx. amt == $33m something dollars i cant be bothered to do the math to get the exact value);
+  > grab all meteorites instantly;
+  > murder all bandits; 
+  > murder king bingus;
+  > use all almond water on floppa instantly;
+  > auto play and finish the whole game (gets time cube, buys stuff, WIP);
+  > auto use item duplicator;
+  > auto fish; (speed adjustable, if too fast it might break at times);
+  > auto fertiliser; (plant or farm); (option dropdown);
+\\;
+
+// lucky block playgrounds;
+  > get lucky block;
+  > get galaxy glock;
+  > get rainbow block;
+  > get super block;
+  > get all items in the game;
+  > hitbox expander; size adjustable, yk if some noobs annoy u >:)
+\\
+
+// auto-training/tryouts/whatever you wanna call it; (universal);
+  > supported types of jacks:
+      ~ jumping jacks;
+      ~ hell jacks;
+      ~ grammar jacks;
+      ~ cheer jacks;
+  > auto drills;
+    ~ left (turn); (incline);
+    ~ right (turn); (incline);
+    ~ about (turn);
+    ~ control (turn); (spin speed when host is on you can be adjusted);
+    ~ centre (turn);
+    ~ auto error detection;
+  > auto obby; (VERY buggy);
+    ~ preset obbies made already for reaperaaron's ba; (NOT all); (sh_t took me 2-3 hours);
+  > ai training;
+    ~ will do jacks and drills for you automatically, referencing what the host says; all you have to do is cite the host name to the script through a gui;
+    ~ auto the WHOLE TRAINING; (jjs, drills, obbies, wedge, saying thank you to the host lol); (soon.. cuz pathfinding being hella gay);
+  > fully customisable;
+    ~ admin command to change;
+      :override [old command] [new command];
+      ~ example:
+        :override squad_left_turn squad_left_face;
+        --// result: will now turn 90 degrees to the left when
+        SQUAD,
+        LEFT,
+        FACE!
+        is said/detected;
+        --\\
+      ~ another example:
+        :override squad_right_incline squad_left_incline;
+        --// will now turn 45 degrees to the right when
+        SQUAD,
+        LEFT,
+        INCLINE!
+        is said/detected;
+        --\\
+     ~ all spaces in the new command must be denoted with a underscore --> ("_");
+     ~ ik this is all hard to understand but basically: it overrides what the old command with the new command but keeps the function of the old command;
+       assigned to the new command when it is called;
+     ~ simplified for idiots (no offence): just does whatever the old command does when the new command is said
+ > save settings;
+  ~ allow saving of your current settings, will save your customisations;
+\\
+
+
+// universal aimbot and esp;
+   > uses mousemoveabs or mousemoverel to move your mouse (undetected); (works for camera too, i think);
+   > fov circle; fov circle size; (adjustable, default is 69);
+   > esp; (enabled/disabled);
+    ~ colour3.new (colour basically) can be chosen
+    ~ tracers
+    ~ colour can be according to team colour (toggable)
+   > legit mode
+    ~ makes your mouse move randomly at places in a attempt to look legit
+\\ 
+        
+        
+        
+
+  
+
+
+
