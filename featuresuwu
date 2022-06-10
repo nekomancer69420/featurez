@@ -42,6 +42,8 @@ development started as at 10/6/2022 lol;
 
 // clickkill;
     > 5 second cooldown (bypasses teamcheck); (bypasses leaderboard ko count);
+      ~ note: do not spam click with this as it might still cause the clickkill to run 2 times in a row 
+         ~ the script already has measures for the 5 second cooldown but it is still possible to slip in another click
 
 // clickkill; (no cooldown, does not bypass teamcheck, does not bypass leaderboard ko count);
 
