@@ -14,7 +14,7 @@ development started as at 10/6/2022 lol;
     ~ { tpfly (really buggy); , normal bodygyro + bodyvelocity + bodyforce fly };
 
 // copy other peoples boat; (not recommended to be used);
-  > super buggy (like holy sh_t);
+  > super buggy;
   > will crash u if it tries to copy > 50 ~ 100 blocks;
   > works for 15 blocks lol;
     ~ most of this is due to it just gets the positions of the blocks and stores them in a table which becomes really laggy since there are so many large values;
