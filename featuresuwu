@@ -54,6 +54,10 @@ development started as at 10/6/2022 lol;
 // ddos everyone but yourself; (this is such a lame method but whatever);
 
 // crash server; (server will freeze for about 5 mins or so before disconnecting everyone);
+   > having high ping might affect this and disconnect you before disconnecting anyone else.
+   > an indepth guide on how to use this will appear as a notification when u run the script to divert any potential patches
+      ~ its not as easy as it sounds
+      ~ i would get the script to automate this process but it just puts too much stress on the client and crashes you for some reason
 
 // silent aim; (bullet velocity/travel will not matter, it will ALWAYS hit the target that is closest to your mouse/in your fov);
     ~ team check ofc;
